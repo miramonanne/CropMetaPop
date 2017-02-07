@@ -1,0 +1,104 @@
+html{
+    size:100%;
+    background-color:lightgray;
+}
+
+.header{
+    background:white;
+    text-align: center;
+}
+
+#logo{
+    height: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align:center
+}
+
+.contents{
+    margin:auto;
+    background-color:white;
+    width:60%;
+    height:100%;
+    position:absolute;
+    left: 20%;
+    top:120px;
+    padding:20px;
+
+}
+
+.menu {
+    border: auto
+    padding: 0; margin: 0;
+    font-family : Arial; /* on utilise Arial, c'est plus beau ^^ */
+    text-align: center; /* centrer le texte */
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.menu li {
+    float: right;
+    border-left: 1px solid #fff
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+}
+
+.menu li ul /* Sous-listes */
+{
+    position: absolute; /* Position absolue */
+    width: 144px; /* Largeur des sous-listes */
+    left: -999em; /* Hop, on envoie loin du champ de vision */
+}
+
+
+.menu li ul li /* Éléments de sous-listes */
+{
+    border-top : 1px solid #fff; /* on met une bordure blanche en haut de chaque élément d'une sous liste */
+    border-left: none}
+
+.menu li:hover ul, .menu li li:hover ul, .menu li.sfhover ul, .menu li li.sfhover ul  /* Sous-listes lorsque la souris passe sur un élément de liste ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste */
+{
+    left: auto; /* Repositionnement normal */
+    min-height: 0; /* Corrige un bug sous IE */
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
+
+.text{
+
+}
+
+.list{
+    background-color:lightgray;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#version{
+    font-weight:bold;
+    font-size:20px;
+}
+
+#ask{
+    font-weight:bold;
+    font-size:20px;
+}
+
+#example{
+    font-weight:bold;
+    font-size:20px;
+}
