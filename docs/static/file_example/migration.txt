@@ -1,0 +1,5 @@
+generations:50
+
+nb_pop:20
+carr_capacity:1000
+
