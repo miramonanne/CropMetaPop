@@ -38,14 +38,127 @@
                 
                 <div class="list">
                     <ul>
-                        <li><a href="#Version1">Version....</a></li>
+                        <li><a href="#Version0.4.3">Version 0.4.3 ¦ 2017-02-03</a></li>
+                        <li><a href="#Version0.4.2">Version 0.4.2 ¦ 2017-01-24</a></li>
+                        <li><a href="#Version0.4.1">Version 0.4.1 ¦ 2017-01-15</a></li>
+                        <li><a href="#Version0.4">Version 0.4 ¦ 2017-01-12</a></li>
+                        <li><a href="#Version0.3.1">Version 0.3.1 ¦ 2016-12-20</a></li>
+                        <li><a href="#Version0.3">Version 0.3 ¦ 2016-12-01</a></li>
+                        <li><a href="#Version0.2">Version 0.2 ¦ 2016-11-23</a></li>
                     </ul>
                 </div>
                 
-                <div id="Version1">
-                    <p id="version">Version 1</p>
+                <div id="Version0.4.3">
+                    <p id="version">Version 0.4.3</p>
+                    New Features
+                    <ul>
+                        <li>Adding the parameter separate_replicate</li>
+                        <li>Adding the copy of settings file and others external file used with the outputs. </li>
+                        <li>Adding a example file with the source code (example.txt)</li>
+                    </ul>
+
+                    Bug Fixes
+                    <ul>
+                        <li>Fixes the bug with the caracter '*'</li>
+                        <li>Fixes the bug with the parameters col_transfer_model and migr_transfer_model</li>
+                    </ul>
+                </div>
+
+                <div id="Version0.4.2">
+                    <p id="version">Version 0.4.2</p>
                     
-                    Blip blop blep
+                    New Features
+                    <ul>
+                        <li>Adding the parameters col_directed and migr_directed</li>
+                    </ul>
+
+                    Modifcation
+                    <ul>
+                        <li>Modifcation of the order of default network</li>
+                        <li>Add Error for the parameter fecundity and mut_rate</li>
+                    </ul>
+
+                    Bug Fixe
+                    <ul>
+                        <li>Fixe the bug on the parameter percentSelf</li>
+                    </ul>
+                </div>
+
+                <div id="Version0.4.1">
+                    <p id="version">Version 0.4.1</p>
+                    
+                    New Features
+                    <ul>
+                        <li>Adding a progress bar </li>
+                        <li>Adding the parameters migr_power et col_power for the default network of type Barabasi.</li>
+                        <li>Forcing the creation of connected graph for the Erdos and Community model and stoping the program if the creation is too long.</li>
+                    </ul>
+
+                    Bugs Fixes
+                    <ul>
+                        <li>Fixe the bug in the writing of allelic frequency</li>
+                    </ul>
+                </div>
+
+                <div id="Version0.4">
+                    <p id="version">Version 0.4</p>
+                    
+                    New Features
+
+                    <ul>
+                        <li>Adaptation of CropMetaPop at python3.4</li>
+                        <li>Creating of a file standalone</li>
+                        <li>The parameter *nb_offspring* becomes *fecundity*</li>
+                        <li>Removing of file default_settings.txt</li>
+
+                    </ul>
+                </div>
+
+                <div id="Version0.3.1">
+                    <p id="version">Version 0.3.1</p>
+                    
+                    New Features
+                    <ul>
+                        <li>New parameters col_FromOne and migr_FromOne</li>
+                    </ul>
+
+                    Bugs Fixes
+                    <ul>
+                        <li>In the settings, the final is per replicat now</li>
+                        <li>There is not the double warning for the carr_capacity</li>
+                        <li>The files numExchangeColonisation and numExchangeMigration are create only respectively if there are seed transfert for the colonisation or migration.</li>
+                    </ul>
+                </div>
+
+                <div id="Version0.3">
+                    <p id="version">Version 0.3</p>
+                    
+                    New Features
+                    <ul>
+                        <li>Creating a file settings.log after a simulation</li>
+                        <li>Creating a file settings.log after a simulation</li>
+                    </ul>
+
+                    Bugs Fixes
+                    <ul>
+                        <li>Using of the seed for the creation of default network</li>
+                        <li>Allows the launching of CropMetaPop in the other directories than the code source folder.</li>
+                        <li>Stop the program if a parameter used is not known.</li>
+                        <li>Sum of result of heterozygot individual</li>
+                    </ul>
+                </div>
+
+                <div id="Version0.2">
+                    <p id="version">Version 0.2</p>
+                    
+                    New Features
+                    <ul>
+                        <li>Creating of a bash script for the CropMetaPop installation in a environnement</li>
+                        <li>Implementation of a error gestion to the settings file.</li>
+                        <li>Implementation of default network for the migration and the colonisation</li>
+                        <li>Modification of settings file</li>
+                        <li>Modification of storage of result and increase the speed of program</li>
+                    </ul>
                 </div>
                     
                     
