@@ -1,0 +1,5 @@
+generations:50
+
+carr_capacity:10
+#carr_capacity:100
+#carr_capacity:1000

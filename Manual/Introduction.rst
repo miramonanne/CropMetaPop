@@ -13,7 +13,7 @@ It allows the simulation of diploid individuals with different and mix mating sy
 Availability
 ============
 
-The source code of CropMetaPop, the user's manual and the developer's manual are available at www.cropmetapop.org
+The source code of CropMetaPop, the user's manual and the developer's manual are available at https://github.com/miramonanne/CropMetaPop
 
 =========
 Technical

@@ -1,0 +1,8 @@
+generations:50
+
+carr_capacity:100
+
+selfing:0.2
+#selfing:0.5
+#selfing:0.8
+#selfing:1
