@@ -27,7 +27,7 @@ html{
 }
 
 .menu {
-    border: auto
+    border: auto;
     padding: 0; margin: 0;
     font-family : Arial; /* on utilise Arial, c'est plus beau ^^ */
     text-align: center; /* centrer le texte */
@@ -102,7 +102,14 @@ html{
     font-size:20px;
 }
 
-#code{
+.file_example{
     background-color: lightgray;
-    color: white;
+    color: black;
+    margin: :0;
+    padding: 0;
+    border-style: solid;
+    border-width: 1px;
+    max-width: 50%;
+    width:30%;
+
 }
