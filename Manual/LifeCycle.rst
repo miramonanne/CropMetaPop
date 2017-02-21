@@ -385,9 +385,11 @@ The seed transfer model allows to set the parameters necessary to define the rul
 **col_transfer_model [String] (Default: "excess")** and 
 **migr_transfer_model [String] (Default: "excess")**
 
-These parameters determine the seed transfer model used to calculate how many seeds will be transfered among populations during the colonization event and the migration event respectively.
+These parameters determine the seed transfer model used to calculate how many seeds will be transferred among populations during the colonization event and the migration event respectively.
 
-  * **excess**: this parameter value corresponds to the situation when a farmer provides seed to another farmer only if his population produces more seeds than its carrying capacity. Furthermore, the number of outgoing seeds is adjusted with the carrying capacity of the recipient population. The number of seed transfered is thus calculated as the minimum between the donor capacity to provide seed and the recipient capacity to receive seeds. If a farmer provides seeds to several farmers, the global capacity to provide seeds of the donor is equally distributed among the recipients. Likewise, if a population receives seeds from several populations, then the total amount seeds received seed is equally distributed among the seed sources.
+  * **excess**: this parameter value corresponds to the situation when a farmer provides seed to another farmer only if his population produces more seeds than its carrying capacity. Furthermore, the number of outgoing seeds is adjusted with the carrying capacity of the recipient population. The number of seed transferred is thus calculated as the minimum between the donor capacity to provide seed and the recipient capacity to receive seeds. If a farmer provides seeds to several farmers, the global capacity to provide seeds of the donor is equally distributed among the recipients. Likewise, if a population receives seeds from several populations, then the total amount seeds received seed is equally distributed among the seed sources.
+
+  * **friendly**: this parameter value corresponds to the situation when a farmer provides seed to another farmer even if his population don’t produces enough seed for remplir son champ.
   
 **col_from_one and migr_from_one [0,1] (Default:0)**
 
@@ -407,6 +409,10 @@ This parameter allows to control if a population can received migrant seed when 
 **migr_replace [Double/vector] (Default:0)**
 
 This parameter allows to set the replacement rate for each population. This corresponds to the percentage of local seeds that will be replaced by the migrant seeds. If *migr_replace* is a single value, then it is the same replacement rate for all the populations. If it is a vector, then a replacement rate is defined for each population.
+
+**col_rateMinimum [Double/vector] (Default:0)** and **migr_rateMinimum [Double/vector] (Default:0.5)**
+
+These parameters allows to set the minimum proportion that the population 
 
 ==========
 Regulation
